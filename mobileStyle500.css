@@ -1,0 +1,63 @@
+@media only screen and (max-width: 500px) {
+
+    body {
+        font-size: 1.25rem;
+    }
+
+    /*    section top-------------------------------------------------*/
+    .college__name span:nth-child(1) {
+        font-weight: bold;
+    }
+
+    .header__mac-socialMedia a {
+        font-size: 1.5rem;
+    }
+
+    /*    section slideshow-------------------------------------------------*/
+    .slideShow--slide {
+        min-height: 25vh;
+        padding: 0 0 6%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .slideshow__index {
+        bottom: 0;
+        right: -5%;
+    }
+
+    .slideshow__caption {
+        left: 0;
+        font-size: 0.8rem;
+        color: white;
+    }
+
+
+    .slideShow, .slideShow__container, .slideShow--slide, .slideshow--slide__container, .slideShow--slide img {
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
+        border: none;
+        min-width: 95vw;
+    }
+
+    /*    section useful-buttons*/
+    .useful-buttons .bulletin__button {
+        min-width: auto;
+        max-width: initial;
+        width: 80%;
+        margin: 5px 0;
+    }
+
+    /*section bottom*/
+    .bottom__container {
+        grid-template-columns: repeat(1, 80vw);
+        justify-content: flex-start;
+    }
+
+
+    .bottom__div2, .bottom__div3{
+        padding-top: 0;
+    }
+
+}
